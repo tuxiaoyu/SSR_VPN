@@ -1,6 +1,0 @@
-message addr {
-    required uint8 type = 1;
-    optional data("2") ip_port = 2;
-    optional data("4") ipv4_addr = 3;
-    optional data("16") ipv6_addr = 4;
-};
