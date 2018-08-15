@@ -1,0 +1,123 @@
+//首页标题
+
+
+//首页标题
+key1 = "Welcome";
+key2 = "Scan";
+key3 = "Purchase packages";
+key4 = "Validity";
+key5 = "SMART MODE";
+key6 = "FREE";
+key7 = "一天";
+
+key8 = "tips";
+key9 = "My network is disabled. What else do you want?";
+key10 = "YES";
+key11 = "Default";
+key12 = "Watch ads overtime";
+
+key13 = "Choose line";
+key14 = "Free line";
+key15 = "VIP line";
+key16 = "Upgrade VIP speed is faster and more stable, the line is unlimited traffic, and support multi-device switching.";
+key17 = "Cancel";
+key18 = "Update VIP";
+key19 = "Purchase packages";
+
+key20 = "No ads";
+key21 = "More line";
+key22 = "Not limited";
+key23 = "Stable";
+key24 = "Multi-device switch";
+key25 = "Development";
+
+key26 = "VIP package";
+key27 = "Can not pay";
+key28 = "No this product";
+key29 = "Payment failed";
+key30 = "Failed purchase";
+
+
+key31 = "Connecting...";
+key32 = "Connection Succeeded";
+
+key33 = "Line page refresh failed, please refresh try again";
+
+key34 = "Refresh";
+
+
+key35 = "Account";
+key36 = "VIP Security Center";
+key37 = "Change Password";
+key38 = "Purchase History";
+key39 = "Find Password";
+key40 = "Version";
+key41 = "Share";
+key42 = "Score";
+
+
+key43 = "30 days VIP package";
+key44 = "Bound";
+key45 = "Not bound";
+key46 = "Increased use time";
+key47 = "Click QR code to refresh";
+key48 = "QR";
+key49 = "Your use time is up! A VIP or a free assignment?";
+key50 = "Album";
+key51 = "QR";
+key52 = "Login failed";
+key53 = "Congratulations to the master! You have successfully bought the VIP package, and the experience is extremely fast!";
+key54 = "Failed purchase";
+key55 = "Unable to identify QR code";
+key56 = "Please enter your password";
+key57 = "Login successful";
+
+key58 = "Please enter a new password";
+key59 = "Please confirm your password";
+key60 = "Please enter the old password";
+key61 = "The password is inconsistent twice";
+key62 = "Password at least 8 (including letters, numbers, underline)";
+key63 = "password has been updated";
+key64 = "Failed to change password";
+key65 = "change Password";
+key66 = "Purchase History";
+key67 = "Please enter the phone number or email";
+
+key68 = "Security center";
+key69 = "Please open VIP operation";
+key70 = "For your account's security and convenience to retrieve your account or password, please bind the mailbox or phone number";
+key71 = "success";
+key72 = "failure";
+key73 = "Agree with each other login";
+key74 = "Your account has been logged in elsewhere. If you are not authorized by yourself, please log in again and change your password.";
+key75 = "Change phone number";
+key76 = "Retrieve the password";
+key77 = "Bind a new phone number/email";
+key78 = "Replace phone number failed";
+key79 = "Please enter the original phone number/email";
+key80 = "Phone number or email format error";
+key81 = "The phone number or email you entered is different from the original one";
+key82 = "Please enter a new phone number";
+key83 = "please enter verification code";
+key84 = "For your account security and access to the latest event information, please open the notification function App";
+key85 = "Authorization failed";
+key86 = "Please enter the user name and password";
+key87 = "E-mail / phone number / user name";
+key88 = "Please set the account password";
+key89 = "Bind phone number/email";
+key90 = "Binding failed";
+key91 = "The phone number or email is bound account";
+key92 = "connection succeeded";
+key93 = "Has successfully increased the use of time";
+key94 = "\n [Automatic renewal package description] \n - Automatic renewal after expiration, can be canceled at any time \n-- Subscription period: 1 month (continuous monthly product),3 month (continuous monthly product),6 month (continuous monthly product) ,12 months (continuous package of products). \n-- subscription price: a continuous monthly product of 18 yuan per month; consecutive annual product 158 yuan per year. \n -- Payment: The user confirms the purchase and credited to the iTunes account after payment. \n -- Cancel renewal: To cancel renewal, manually turn off the auto-renew feature in iTunes / Apple ID settings management 24 hours prior to the expiration of the current subscription period. \n-- Renew: Apple iTunes account will be deducted within 24 hours before the expiration of the subscription fee, the subscription period is extended by one subscription period. \n-- Privacy Policy: http://47.91.201.65:33765/YSZC.txt \n-- Automatic Renewal Member Service Agreement: http://104.238.188.248/service.txt \n";
+key95 = "Please reload";
+
+key96 = "Services Agreement";
+key97 = "Renewal Agreement";
+key98 = "Please bind the phone number or mailbox";
+key99 = "Copy success";
+key100 = "Login";
+key101 = "Account";
+key102 = "No development";
+key103 = "Congratulations, you've got an hour of free time to experience.";
+key104 = "Your use time is about to expire.";

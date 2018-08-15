@@ -1,0 +1,159 @@
+//
+//  LyPrefix.pch
+//  LyVpn
+//
+//  Created by 王雷 on 2017/2/9.
+//  Copyright © 2017年 王鹏. All rights reserved.
+//
+
+#ifndef LyPrefix_pch
+#define LyPrefix_pch
+
+#import <Masonry/Masonry.h>
+#import <AFNetworking/AFNetworking.h>
+#import "JSONUtils.h"
+#import "JoDess.h"
+#import "NetWorkReachability.h"
+#import "UIView+Toast.h"
+#import "UUID.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <Security/Security.h>
+#import "KeyChainStore.h"
+#import "CommUtls.h"
+#import <IQKeyboardManager/IQKeyboardManager.h>
+
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "AIHelpeManager.h"
+//url
+#define rootUrl [[NSUserDefaults standardUserDefaults]valueForKey:@"ip"]
+//#define rootUrl @"http://vps-test.pk2game.com"
+//#define rootUrl @"http://39.107.15.105"
+
+//存today中数据地址（group）
+#define todayShare @"group.VPN416.CN"
+//APP的类型
+#define appKind  @"SSR"
+
+//内购商品列表
+#define  goodsListUrl @"/goods_info/GoodsInfo.php"
+//线路接口
+#define routeInfoUrl @"/get_server/ReturnServer.php"
+//线路列表
+#define routeListUrl @"/area_list/GetAreaList.php"
+//用户激活
+#define  userActiveUrl @"/user_activate/UserActivate.php"
+//用户支付
+#define  userPayUrl @"/user_order/UserOrder.php"
+//VIP用户登录
+#define vipLoginUrl @"/user_login/Login.php"
+//策略文件
+#define file @"/file.php"
+//分享
+#define shareUrl @"/share/Share.php"
+//购买记录
+#define buyListUrl @"/user_order/PurchaseHistory.php"
+//修改密码
+#define changePsdUrl @"/user_login/ChangePass.php"
+//获取所有线路
+#define getAllrouteUrl @"/get_server/ReturnAllServer.php"
+//存deviceToken
+#define deviceTokenUrl  @"/push_info/ReceiveInfo.php"
+//手机号发送验证码
+#define  TelCoderUrl @"/phone_validate/SendMsgPost.php"
+//手机号绑定
+#define bindTelUrl @"/phone_validate/ValidateCode.php"
+//邮箱发送验证码
+#define emailCodelUrl @"/PHPMailer/send.php"
+//绑定邮箱
+#define bindEmailUrl @"/PHPMailer/ValidateCode.php"
+//消息推送
+#define pushSendUrl @"/push_info/push_info.php"
+//二维码版本号获取
+#define versionUrl @"/user_login/FindVersion.php"
+//域名池
+#define IPPoolurl @"/tactics/Domain.php"
+//广告
+#define adUrl @"/advertising/SendAd.php"
+//用户信息
+#define userInfoUrl @"/user_login/ReturnInfo.php"
+//评论加时长
+#define addtimeUrl @"/comment/AddTime.php"
+//获取新的VIP时间
+#define getNewTimeUrl @"/user_order/ValiSubscri.php"
+//统计
+#define  countUrl @"/statistics/VpnStatistics.php"
+//获取支付类型
+#define payTypeUrl @"/app/ReturnPayment.php"
+//获取token
+#define  getTokenURL @"/user_activate/ReturnUserToken.php"
+
+//开屏广告和弹框
+#define openAppAdURL @"/advertising/SaleAd.php"
+//消息列表
+#define notificationUrl @"/sales_promotion/ReturnSales.php"
+
+//续期订阅共享秘钥
+#define subscribeKey @"9b79749a7e41419fb33b13a2c076708e"
+
+
+
+//提示的时间
+#define tipsSeecond  2.0
+#define  keyWindow  [UIApplication sharedApplication].keyWindow
+//屏幕的款高
+#define kWidth  [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
+
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+//高比
+#define KHeight_Scale   [UIScreen mainScreen].bounds.size.height/667.0f
+//宽比
+#define KWidth_Scale    [UIScreen mainScreen].bounds.size.width/375.0f
+
+//如果release状态就不执行NSLog函数
+#ifndef __OPTIMIZE__
+#define NSLog(...) NSLog(__VA_ARGS__)
+#define pushBOX @"1"
+//沙盒测试环境验证
+#define  packageURL @"https://sandbox.itunes.apple.com/verifyReceipt"
+#else
+#define NSLog(...) {}
+#define pushBOX @"0"
+//正式环境验证
+#define packageURL @"https://buy.itunes.apple.com/verifyReceipt"
+
+#endif
+
+
+
+#define colorRGB(R,G,B)   [UIColor colorWithRed:(R/255.0) green:(G/255.0) blue:(B/255.0) alpha:1.0];
+
+
+//网络请求返回数据 解密的密码
+#define keyDES @"LZQ1Yit8"
+
+
+#define  KEY_USERNAME_PASSWORD @"com.company.app.psd"
+#define  KEY_USERNAME_TOKEN @"com.company.app.token"
+
+#define IOSCurrentBaseVersion ([[[UIDevice currentDevice] systemVersion] floatValue])
+
+#define IOSBaseVersion10     10.0
+
+#define IOSBaseVersion8     8.0
+
+#define iOS10Later (IOSCurrentBaseVersion >= IOSBaseVersion10)
+
+#define iOS8Later (IOSCurrentBaseVersion >= IOSBaseVersion8)
+
+
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#define LBXScan_Define_UI     //下载了界面模块
+#endif
+
+#endif /* LyPrefix_pch */
